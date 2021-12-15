@@ -70,12 +70,13 @@ class ViewController: UIViewController {
         if sender.isOn {
             overrideUserInterfaceStyle = .dark
             self.view.backgroundColor = UIColor.black
-        
+            self.billAmountTextField.backgroundColor = UIColor.black
 
         }
         else {
             overrideUserInterfaceStyle = .light
             self.view.backgroundColor = UIColor.white
+            self.billAmountTextField.backgroundColor = UIColor.white
         }
     }
     
